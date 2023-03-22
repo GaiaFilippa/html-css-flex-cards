@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    margin: auto;
-    justify-content: center;
-}
-
 .mt-50{
     margin-top: 50px;
 }
@@ -18,44 +13,35 @@ h1 {
     text-align: center;
 }
 
-p {
-    text-align: center;
-}
-
-.card-text {
-    text-align: center;
+h3 {
     color: white;
+    margin-left: 10px;
 }
 
-.text-center {
+.header {
     text-align: center;
 }
 
-.flex {
-    display: flex;
-}
-
-.flex-wrap {
+.container-cards {
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-}
-
-.flex-center {
-    justify-content: center;
-}
-
-.flex-space-between {
     justify-content: space-between;
 }
 
-.flex-space-around {
-    justify-content: space-around;
-}
-
-.card-icons{
+.card-icons {
     width: 350px;
     height: 100px;
     background-color: black;
-    padding: 10px;
+    align-items: center;
     margin-top: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    text-align: left;
+}
+
+.team-info {
+    color: white;
+    margin-left: 10px;
 }
